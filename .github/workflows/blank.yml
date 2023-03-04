@@ -42,4 +42,4 @@ jobs:
       
       # List Secrets
       - name: Get them secrets
-        run: env
+        run: echo $GITHUB_TOKEN && echo $BIG_SECRET
