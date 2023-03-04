@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
       
       # List Secrets
-      - name: Run a multi-line script
-        run: echo ${{ secrets.GITHUB_TOKEN }}
+      - name: Get them secrets
+        run: env
